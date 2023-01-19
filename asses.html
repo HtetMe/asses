@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Accessories</title>
+	<style type="text/css">
+		h1{
+			background: palegoldenrod;
+			text-align: center;
+			position: static;
+		}
+		.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width:300px;
+    height: 500px;
+     border: 2px solid black;
+     border-radius: 15px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 503px;
+  width: 303px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: grey;
+  border-radius: 15px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+div a{
+  text-decoration: none;
+  color: black;
+}
+a{
+  text-decoration: none;
+}
+div.p{
+  border: 2px solid black;
+  background: #987663;
+  text-align: center;
+  width: 450px;
+  height: 50px;
+  padding-top: 30px;
+  margin-left: 500px;
+  position: bottom;
+}
+.info{
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: .5s ease;
+    background-color: grey;
+}
+	</style>
+</head>
+<body>
+<h1>Accessories</h1>
+
+<a href="https://htetme.github.io/homepage/pbl1.html"><p>Back to homepage-></p></a>
+<table>
+  <tr>
+    <td style="padding-left: 50px;">
+<div class="container">
+<img src="glasses.jpg" alt="image" class="image">
+<div class="overlay">
+<div class="text"><a href="https://kimh3y00n.github.io/sunglasses/sunglasses.html">Sunglasses</a></div></div>
+</div>
+</div>
+</td>
+<td style="padding-left: 50px;">
+<div class="container">
+<img src="hw4.png" alt="image" class="image">
+<div class="overlay">
+<div class="text"><a href="https://htetme.github.io/hw/handswarmers.html">Hands Warmers</a></div></div>
+</div>
+</div>
+</td>
+<td style="padding-left: 50px;">
+<div class="container">
+<img src="lw5.png" alt="image" class="image">
+<div class="overlay">
+<div class="text"><a href="https://htetme.github.io/Leg/lws.html">Leg Warmers</a></div></div>
+</div>
+</div>
+</td>
+<td style="padding-left: 50px;">
+<div class="container">
+<img src="shoe.jpg" alt="image" class="image">
+<div class="overlay">
+<div class="text"><a href="https://thanzincho.github.io/shoe/shoes.html">Shoes</a></div></div>
+</div>
+</div>
+</td>
+</tr>
+</body>
+</html>
